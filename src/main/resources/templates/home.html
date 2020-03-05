@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+Hello World!
+<!--wszystko co jest z prefixem th: jest rozwiązywane przez ThymeleafResolver-->
+<!--wyrażenie do budowania adresu URL @{}-->
+<!--znacznik a href przekazuje żądanie typu GET-->
+<br/>
+<a th:href="@{/about}">o mnie</a>
+
+</body>
+</html>
